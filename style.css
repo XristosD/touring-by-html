@@ -1,0 +1,271 @@
+
+/* Template */
+.zeroing-padding-margin {
+    padding: 0px;
+    margin: 0px;
+}
+
+@media (min-width: 1200px) {
+
+    .zeroing-padding-margin {
+        padding: auto;
+        margin: auto;
+    }
+}
+
+.main-wrapper {
+    min-height: 100vh;
+}
+
+.bg-my-grey {
+    background-color: #DAECE8;
+}
+
+.bg-my-blue {
+    background-color: #408E90;
+}
+
+.bg-header-blue{
+    background-color: #A8D5CC;
+}
+
+@media (min-width: 769px){
+    .navbar-center {
+        position: absolute;
+        left: 50%;
+    }
+}
+
+.nav-half-space {
+    padding: 4px 4px;
+}
+
+.title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 25px;
+}
+
+
+
+.nav-link {
+    margin: 0px 15px;
+    font-size: 25px;
+}
+
+@media (min-width: 1200px) {
+
+    .nav-link {
+        margin: 0px 40px;
+    }
+}
+
+.nav-title {
+    padding-left: 4px;
+}
+
+@media (min-width: 419px){
+    .title {
+        font-size: 45px;
+    }
+
+    .nav-half-space {
+        padding: 8px 16px;
+    }
+
+    .nav-title {
+        padding-left: 16px;
+    }
+}
+
+.dashboard-wrapper {
+    margin: 80px 20px 20px 20px;
+}
+
+
+
+/* welcome */
+.index-card{
+    border: none;
+    margin: 40px;
+    font-size: 70px;
+    background-color: #DAECE8;
+}
+
+.index-a {
+    color: #8192AD;
+    text-decoration: none;
+}
+
+.index-a:hover {
+    color: #545479;
+    text-decoration: none;
+}
+/* end welcome */
+
+/* button style */
+
+.my-btn {
+    background-color: #408E90;
+    color: white;
+}
+
+/* end button */
+
+/* model name link style  */
+
+.model-name-a {
+    color: #212529;
+    text-decoration: none;
+}
+
+.model-name-a:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+/* end model name link */
+
+/* index model */
+
+.model-name {
+    display: flex;
+    justify-content: center;
+}
+
+.model-name-a {
+    color: #212529;
+    text-decoration: none;
+}
+
+.model-name-a:hover {
+    color: #212529;
+    text-decoration: none;
+}
+
+.model-info  {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 576px){
+    .model-name {
+        justify-content: start;
+    }
+    
+    .model-info  {
+        justify-content: start;
+    }
+}
+
+.model-wrapper {
+    padding-bottom: 30px;
+    padding-top: 20px;
+    border-bottom: 2px solid #408E90;
+}
+
+.model-wrapper:last-child {
+    border-bottom: 0px solid #408E90;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 576px){
+    .btn-wrapper {
+        justify-content: flex-end;
+    }
+}
+
+/* end index model */
+
+/* show model */
+
+.responsive-card-header-title{
+    font-size: 18px;
+}
+
+
+.responsive-card-header-btn{
+    padding: 0px 1px;
+    font-size: 16px;
+}
+
+#not-so-responsive-dropdown {
+    display: block;
+}
+
+#not-so-responsive-btns {
+    display: none;
+}
+
+.dropdown-menu {
+    border: none;
+    max-width: 10px;
+}
+
+@media (min-width: 410px){
+    .responsive-card-header-title {
+        font-size: 1.25rem;
+    }
+    .responsive-card-header-btn{
+        padding: 6px 12px;
+        font-size: 16px;
+    }
+
+    #not-so-responsive-dropdown {
+        display: none;
+    }
+
+    #not-so-responsive-btns {
+        display: block;
+    }
+}
+
+/* end show model */
+
+/* card body list fixed height and overfolw  */
+
+.card-body-list-overflow {
+    max-height: 400px;
+    overflow-y:auto 
+}
+
+/*   card body list */
+
+/* map */
+
+#map {
+    height: 240px;
+}
+
+
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: auto;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 75%;
+  }
+
+  #pac-input:focus {
+    border-color: #4d90fe;
+  }
+
+  @media (min-width: 550px){
+    #map {
+        height: 500px;
+    }
+
+    #pac-input {
+        width: 50%;
+    }
+}
+
+/* end map */
+
